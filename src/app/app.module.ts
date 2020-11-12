@@ -7,6 +7,7 @@ import { CalculoComponent } from './components/calculo/calculo.component';
 
 //IMPORTACIONES DE ROUTING
 import { appRoutingProviders, routing } from './app.routing';
+import { ListaproductosComponent } from './components/listaproductos/listaproductos.component';
 //DEBO METER appRoutingProviders A providers
 //routing A IMPORTS
 
@@ -14,7 +15,8 @@ import { appRoutingProviders, routing } from './app.routing';
   declarations: [
     AppComponent,
     CollatzComponent,
-    CalculoComponent
+    CalculoComponent,
+    ListaproductosComponent
   ],
   imports: [
     BrowserModule,
