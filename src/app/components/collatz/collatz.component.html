@@ -1,0 +1,7 @@
+<h1>Conjetura Collatz Route</h1>
+
+<ul>
+    <li *ngFor="let num of numeros">
+        <a [routerLink]="['/calculo', num]">{{num}}</a>
+    </li>
+</ul>

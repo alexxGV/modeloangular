@@ -2,15 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CollatzComponent } from './components/collatz/collatz.component';
+import { CalculoComponent } from './components/calculo/calculo.component';
+
+//IMPORTACIONES DE ROUTING
+import { appRoutingProviders, routing } from './app.routing';
+//DEBO METER appRoutingProviders A providers
+//routing A IMPORTS
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CollatzComponent,
+    CalculoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
-  providers: [],
+  providers: [appRoutingProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
