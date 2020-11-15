@@ -8,6 +8,12 @@ import { CalculoComponent } from './components/calculo/calculo.component';
 //IMPORTACIONES DE ROUTING
 import { appRoutingProviders, routing } from './app.routing';
 import { ListaproductosComponent } from './components/listaproductos/listaproductos.component';
+import { CocheComponent } from './components/coche/coche.component';
+import { ConcesionarioComponent } from './components/concesionario/concesionario.component';
+import { HijocontadorComponent } from './components/hijocontador/hijocontador.component';
+import { PadrecontadoresComponent } from './components/padrecontadores/padrecontadores.component';
+import { LibreriaComponent } from './components/libreria/libreria.component';
+import { ComicComponent } from './components/comic/comic.component';
 //DEBO METER appRoutingProviders A providers
 //routing A IMPORTS
 
@@ -16,7 +22,13 @@ import { ListaproductosComponent } from './components/listaproductos/listaproduc
     AppComponent,
     CollatzComponent,
     CalculoComponent,
-    ListaproductosComponent
+    ListaproductosComponent,
+    CocheComponent,
+    ConcesionarioComponent,
+    HijocontadorComponent,
+    PadrecontadoresComponent,
+    LibreriaComponent,
+    ComicComponent
   ],
   imports: [
     BrowserModule,
